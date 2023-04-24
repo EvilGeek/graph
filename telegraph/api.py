@@ -18,7 +18,7 @@ class TelegraphApi:
 
     __slots__ = ('access_token', 'domain', 'session')
 
-    def __init__(self, access_token=None, domain='telegra.ph'):
+    def __init__(self, access_token=None, domain='graph.org'):
         self.access_token = access_token
         self.domain = domain
         self.session = requests.Session()
